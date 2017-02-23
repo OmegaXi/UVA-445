@@ -1,12 +1,12 @@
 #include<iostream>
-#include<string.h>
+#include<cstring>
 using namespace std;
 
 main()
 {
 	char a[200];
 	int n,t;
-	while(gets(a))
+	while(cin>>a)
 	{
 		t=0;
 	n = strlen(a);
